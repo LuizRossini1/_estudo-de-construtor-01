@@ -17,5 +17,7 @@ imprima seus valores.
 package EstudoConstrutor;
 
 public class Principal {
+    public static void main(String[] args) {
 
+    }
 }
