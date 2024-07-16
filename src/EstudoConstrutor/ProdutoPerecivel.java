@@ -9,4 +9,9 @@ public class ProdutoPerecivel extends Produto {
 
     //Variables
     private double dataValidade;
+
+    //Getters
+    public double getDataValidade() {
+        return dataValidade;
+    }
 }

@@ -25,12 +25,12 @@ public class Principal {
         var produto01 = new Produto("Bolo no pote", 4.99, 25);
         var produto02 = new Produto("Brigadeiro", 1.99, 50);
         var produto03 = new Produto("Pão de mel", 8.99, 10);
-
         var produto04 = new ProdutoPerecivel("Miojo", 2.99, 1, 11.25);
 
         listaProdutos.add(produto01);
         listaProdutos.add(produto02);
         listaProdutos.add(produto03);
+        listaProdutos.add(produto04);
 
         System.out.println("O tamanho da lista é de " +listaProdutos.size()+ " itens");
         System.out.println("O item atual é: " +listaProdutos.get(2));
@@ -40,5 +40,7 @@ public class Principal {
         for (int i = 0; i < listaProdutos.size(); i++) {
             System.out.println(listaProdutos.get(i));
         }
+
+        System.out.println("Item perecível; " +listaProdutos.get(3)+ ", data de validade: " +produto04.getDataValidade());
     }
 }
