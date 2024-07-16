@@ -25,4 +25,9 @@ public class Produto {
     public int getQuantidade() {
         return quantidade;
     }
+
+    @Override
+    public String toString() {
+        return getNome();
+    }
 }

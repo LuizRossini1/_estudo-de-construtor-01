@@ -30,7 +30,13 @@ public class Principal {
         listaProdutos.add(produto02);
         listaProdutos.add(produto03);
 
-        System.out.println(listaProdutos.size());
-        System.out.println(listaProdutos.get(2));
+        System.out.println("O tamanho da lista é de " +listaProdutos.size()+ " itens");
+        System.out.println("O item atual é: " +listaProdutos.get(2));
+
+        System.out.println("");
+
+        for (int i = 0; i < listaProdutos.size(); i++) {
+            System.out.println(listaProdutos.get(i));
+        }
     }
 }
