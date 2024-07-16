@@ -16,8 +16,21 @@ imprima seus valores.
 
 package EstudoConstrutor;
 
+import java.util.ArrayList;
+
 public class Principal {
     public static void main(String[] args) {
+        ArrayList<Produto> listaProdutos = new ArrayList<>();
 
+        var bolo = new Produto();
+        var camiseta = new Produto();
+        var relogio = new Produto();
+
+        listaProdutos.add(bolo);
+        listaProdutos.add(camiseta);
+        listaProdutos.add(relogio);
+
+        System.out.println(listaProdutos.size());
+        System.out.println(listaProdutos.get(2));
     }
 }
