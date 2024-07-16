@@ -22,13 +22,13 @@ public class Principal {
     public static void main(String[] args) {
         ArrayList<Produto> listaProdutos = new ArrayList<>();
 
-        var bolo = new Produto();
-        var camiseta = new Produto();
-        var relogio = new Produto();
+        var produto01 = new Produto("Bolo no pote", 4.99, 25);
+        var produto02 = new Produto("Brigadeiro", 1.99, 50);
+        var produto03 = new Produto("Pão de mel", 8.99, 10);
 
-        listaProdutos.add(bolo);
-        listaProdutos.add(camiseta);
-        listaProdutos.add(relogio);
+        listaProdutos.add(produto01);
+        listaProdutos.add(produto02);
+        listaProdutos.add(produto03);
 
         System.out.println(listaProdutos.size());
         System.out.println(listaProdutos.get(2));
