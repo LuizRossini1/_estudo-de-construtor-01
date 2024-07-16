@@ -26,6 +26,8 @@ public class Principal {
         var produto02 = new Produto("Brigadeiro", 1.99, 50);
         var produto03 = new Produto("Pão de mel", 8.99, 10);
 
+        var produto04 = new ProdutoPerecivel("Miojo", 2.99, 1, 11.25);
+
         listaProdutos.add(produto01);
         listaProdutos.add(produto02);
         listaProdutos.add(produto03);
